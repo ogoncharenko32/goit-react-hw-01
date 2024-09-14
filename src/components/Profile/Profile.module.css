@@ -1,7 +1,8 @@
 .cart {
     border: 3px solid #000000;
     border-radius: 12px;
-    width: 20vw;
+    min-width: 320px;
+    max-width: 375px;
     overflow: hidden;
 }
 
