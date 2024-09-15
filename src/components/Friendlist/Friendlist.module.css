@@ -4,6 +4,8 @@
     max-width: 375px;
     min-width: 320px;
     justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .item {
