@@ -3,7 +3,6 @@ import clsx from "clsx";
 import css from "./Friendlist.module.css"
 
 const FriendList = ({ friends }) => {
-    console.log(friends);
     return (
         <ul className={clsx(css.list)}>
             {friends.map((friend) => {

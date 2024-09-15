@@ -3,7 +3,6 @@ import css from "./TransactionsHistory.module.css"
 import clsx from "clsx";
 
 const TransactionHistory = ({ transactions }) => {
-    console.log(transactions);
     return (
         <table className={clsx(css.table)}>
             <thead>
